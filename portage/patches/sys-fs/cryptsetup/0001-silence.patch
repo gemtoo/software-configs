@@ -1,0 +1,44 @@
+diff --git a/src/utils_password.c b/src/utils_password.c
+index 3374e18..5614f27 100644
+--- a/src/utils_password.c
++++ b/src/utils_password.c
+@@ -288,10 +288,10 @@ int tools_get_key(const char *prompt,
+ 			} else {
+ 				r = 0;
+ 				if (!prompt && !crypt_get_device_name(cd))
+-					r = snprintf(tmp, sizeof(tmp), _("Enter passphrase: "));
++					r = snprintf(tmp, sizeof(tmp), _(""));
+ 				else if (!prompt) {
+ 					backing_file = crypt_loop_backing_file(crypt_get_device_name(cd));
+-					r = snprintf(tmp, sizeof(tmp), _("Enter passphrase for %s: "), backing_file ?: crypt_get_device_name(cd));
++					r = snprintf(tmp, sizeof(tmp), _(""), backing_file ?: crypt_get_device_name(cd));
+ 					free(backing_file);
+ 				}
+ 				if (r >= 0)
+@@ -300,14 +300,14 @@ int tools_get_key(const char *prompt,
+ 					r = -EINVAL;
+ 			}
+ 		} else {
+-			log_dbg("STDIN descriptor passphrase entry requested.");
++			log_dbg("");
+ 			/* No keyfile means STDIN with EOL handling (\n will end input)). */
+ 			r = crypt_keyfile_device_read(cd, NULL, key, key_size,
+ 					keyfile_offset, keyfile_size_max,
+ 					key_file ? 0 : CRYPT_KEYFILE_STOP_EOL);
+ 		}
+ 	} else {
+-		log_dbg("File descriptor passphrase entry requested.");
++		log_dbg("");
+ 		r = crypt_keyfile_device_read(cd, key_file, key, key_size,
+ 					      keyfile_offset, keyfile_size_max, 0);
+ 	}
+@@ -325,7 +325,7 @@ int tools_get_key(const char *prompt,
+ void tools_passphrase_msg(int r)
+ {
+ 	if (r == -EPERM)
+-		log_err(_("No key available with this passphrase."));
++		log_err(_(""));
+ 	else if (r == -ENOENT)
+-		log_err(_("No usable keyslot is available."));
++		log_err(_(""));
+ }

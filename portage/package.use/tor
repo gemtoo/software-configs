@@ -1,0 +1,6 @@
+net-vpn/tor tor-hardening
+x11-libs/gtk+ wayland
+# required by www-client/torbrowser-launcher-0.3.6-r1::torbrowser
+# required by torbrowser-launcher (argument)
+>=app-crypt/gpgme-1.18.0-r2 python
+>=dev-python/PyQt5-5.15.9-r1 widgets gui

@@ -1,0 +1,40 @@
+diff --git a/src/qalc.cc b/src/qalc.cc
+index 933a65c..814dccb 100644
+--- a/src/qalc.cc
++++ b/src/qalc.cc
+@@ -4055,7 +4055,7 @@ int main(int argc, char *argv[]) {
+ 			FPUTS_UNICODE(_("set"), stdout); fputs(" ", stdout); FPUTS_UNICODE(_("OPTION"), stdout); fputs(" ", stdout); PUTS_UNICODE(_("VALUE")); CHECK_IF_SCREEN_FILLED
+ 			FPUTS_UNICODE(_("to"), stdout); fputs("/", stdout); FPUTS_UNICODE(_("convert"), stdout); fputs("/->", stdout); fputs(" ", stdout); PUTS_UNICODE(_("UNIT or \"TO\" COMMAND")); CHECK_IF_SCREEN_FILLED
+ 			FPUTS_UNICODE(_("variable"), stdout); fputs(" ", stdout); FPUTS_UNICODE(_("NAME"), stdout); fputs(" ", stdout); FPUTS_UNICODE(_("EXPRESSION"), stdout); CHECK_IF_SCREEN_FILLED_PUTS("");
+-			FPUTS_UNICODE(_("quit"), stdout); fputs("/", stdout); PUTS_UNICODE(_("exit")); CHECK_IF_SCREEN_FILLED_PUTS("");
++			FPUTS_UNICODE(_("q"), stdout); fputs("/", stdout); PUTS_UNICODE(_("exit")); CHECK_IF_SCREEN_FILLED_PUTS("");
+ 			PUTS_UNICODE(_("Commands for RPN mode:")); CHECK_IF_SCREEN_FILLED
+ 			FPUTS_UNICODE(_("rpn"), stdout); fputs(" ", stdout); PUTS_UNICODE(_("STATE")); CHECK_IF_SCREEN_FILLED
+ 			PUTS_UNICODE(_("stack")); CHECK_IF_SCREEN_FILLED
+@@ -5005,7 +5005,7 @@ int main(int argc, char *argv[]) {
+ 					CHECK_IF_SCREEN_FILLED_PUTS(_("This command can also be typed directly at the end of the mathematical expression (e.g. 5 ft + 2 in to meter)."));
+ 					CHECK_IF_SCREEN_FILLED_PUTS("");
+ 				}
+-			} else if(EQUALS_IGNORECASE_AND_LOCAL(str, "quit", _("quit")) || EQUALS_IGNORECASE_AND_LOCAL(str, "exit", _("exit"))) {
++			} else if(EQUALS_IGNORECASE_AND_LOCAL(str, "q", _("q")) || EQUALS_IGNORECASE_AND_LOCAL(str, "exit", _("exit"))) {
+ 				puts("");
+ 				PUTS_UNICODE(_("Terminates this program."));
+ 				puts("");
+@@ -5048,7 +5048,7 @@ int main(int argc, char *argv[]) {
+ 			printf("\e[1;1H\e[2J");
+ #endif
+ 		//qalc command
+-		} else if(EQUALS_IGNORECASE_AND_LOCAL(str, "quit", _("quit")) || EQUALS_IGNORECASE_AND_LOCAL(str, "exit", _("exit"))) {
++		} else if(EQUALS_IGNORECASE_AND_LOCAL(str, "q", _("q")) || EQUALS_IGNORECASE_AND_LOCAL(str, "exit", _("exit"))) {
+ #ifdef HAVE_LIBREADLINE
+ 			if(!cfile) {
+ 				free(rlbuffer);
+@@ -5056,7 +5056,7 @@ int main(int argc, char *argv[]) {
+ #endif
+ 			break;
+ 		} else if(explicit_command) {
+-			if(!scom.empty() && ((canfetch && EQUALS_IGNORECASE_AND_LOCAL(scom, "exrates", _("exrates"))) || EQUALS_IGNORECASE_AND_LOCAL(scom, "stack", _("stack")) || EQUALS_IGNORECASE_AND_LOCAL(scom, "exact", _("exact")) || EQUALS_IGNORECASE_AND_LOCAL(scom, "approximate", _("approximate")) || str == "approx" || EQUALS_IGNORECASE_AND_LOCAL(scom, "factor", _("factor")) || EQUALS_IGNORECASE_AND_LOCAL(scom, "simplify", _("simplify")) || EQUALS_IGNORECASE_AND_LOCAL(scom, "expand", _("expand")) || EQUALS_IGNORECASE_AND_LOCAL(scom, "mode", _("mode")) || EQUALS_IGNORECASE_AND_LOCAL(scom, "quit", _("quit")) || EQUALS_IGNORECASE_AND_LOCAL(scom, "exit", _("exit")))) {
++			if(!scom.empty() && ((canfetch && EQUALS_IGNORECASE_AND_LOCAL(scom, "exrates", _("exrates"))) || EQUALS_IGNORECASE_AND_LOCAL(scom, "stack", _("stack")) || EQUALS_IGNORECASE_AND_LOCAL(scom, "exact", _("exact")) || EQUALS_IGNORECASE_AND_LOCAL(scom, "approximate", _("approximate")) || str == "approx" || EQUALS_IGNORECASE_AND_LOCAL(scom, "factor", _("factor")) || EQUALS_IGNORECASE_AND_LOCAL(scom, "simplify", _("simplify")) || EQUALS_IGNORECASE_AND_LOCAL(scom, "expand", _("expand")) || EQUALS_IGNORECASE_AND_LOCAL(scom, "mode", _("mode")) || EQUALS_IGNORECASE_AND_LOCAL(scom, "q", _("q")) || EQUALS_IGNORECASE_AND_LOCAL(scom, "exit", _("exit")))) {
+ 				str = "";
+ 				BEGIN_BOLD(str)
+ 				str += scom;

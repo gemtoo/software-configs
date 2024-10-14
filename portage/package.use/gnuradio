@@ -1,0 +1,12 @@
+# required by net-wireless/gnuradio-3.10.9.2-r5::gentoo[python_single_target_python3_12]
+# required by gnuradio (argument)
+dev-libs/boost python
+# required by dev-python/matplotlib-3.9.1::gentoo[-test]
+# required by net-wireless/gnuradio-3.10.9.2-r5::gentoo[python_single_target_python3_12,utils]
+# required by gnuradio (argument)
+>=virtual/imagemagick-tools-1 tiff jpeg
+# required by virtual/imagemagick-tools-1::gentoo[-svg]
+# required by dev-python/matplotlib-3.9.1::gentoo[-test]
+# required by net-wireless/gnuradio-3.10.9.2-r5::gentoo[python_single_target_python3_12,utils]
+# required by gnuradio (argument)
+>=media-gfx/imagemagick-7.1.1.25 tiff jpeg

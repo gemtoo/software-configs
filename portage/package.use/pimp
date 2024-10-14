@@ -1,0 +1,5 @@
+media-gfx/pimp webp
+x11-libs/gdk-pixbuf jpeg tiff
+media-libs/libpng apng
+app-text/poppler cairo
+media-libs/gegl cairo

@@ -1,0 +1,2 @@
+dev-lang/rust rust-analyzer rust-src rustfmt clippy system-llvm nightly system-bootstrap profiler wasm
+virtual/rust profiler rustfmt

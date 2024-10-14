@@ -1,0 +1,6 @@
+>=media-gfx/zbar-0.23.90 v4l
+>=dev-libs/boost-1.81.0-r1 nls
+>=dev-qt/qtmultimedia-5.15.8 widgets
+>=net-dns/unbound-1.16.3 threads
+net-p2p/monero daemon -readline tools wallet-cli wallet-rpc
+net-p2p/feather bounties calc crowdfunding exchange home localmonero -reddit revuo tickers xmrig qrcode

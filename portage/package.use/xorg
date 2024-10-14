@@ -1,0 +1,3 @@
+x11-base/xorg-server -minimal xvfb
+x11-drivers/xf86-video-intel uxa
+app-text/xmlto text

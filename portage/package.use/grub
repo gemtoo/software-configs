@@ -1,0 +1,2 @@
+sys-boot/grub device-mapper
+sys-boot/grub GRUB_PLATFORMS: -pc efi-64

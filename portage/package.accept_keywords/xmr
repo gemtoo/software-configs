@@ -1,0 +1,8 @@
+dev-util/bc-ur ~amd64
+net-p2p/feather ~amd64
+dev-libs/polyseed ~amd64
+net-p2p/monero ~amd64
+dev-libs/supercop ~amd64
+dev-libs/randomx ~amd64
+net-misc/xmrig ~amd64
+sec-keys/openpgp-keys-featherwallet ~amd64

@@ -1,0 +1,13 @@
+diff --git a/interface_elements.c b/interface_elements.c
+index 0e83af9..9857187 100644
+--- a/interface_elements.c
++++ b/interface_elements.c
+@@ -3087,7 +3087,7 @@ static void info_win_draw_options_state (const struct info_win *w)
+ 	info_win_draw_switch (w, 47, 2, "NET", w->state_net);
+ 	info_win_draw_switch (w, 53, 2, "SHUFFLE", w->state_shuffle);
+ 	info_win_draw_switch (w, 63, 2, "REPEAT", w->state_repeat);
+-	info_win_draw_switch (w, 72, 2, "NEXT", w->state_next);
++	//info_win_draw_switch (w, 72, 2, "NEXT", w->state_next);
+ }
+ 
+ static void info_win_make_entry (struct info_win *w, const enum entry_type type)

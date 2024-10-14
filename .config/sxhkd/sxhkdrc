@@ -1,0 +1,14 @@
+export QT_SCALE_FACTOR=2
+export GDK_SCALE=2
+export GDK_DPI_SCALE=2
+export ELECTRON_SCALE=2
+super + o ; {w,p,t,q,k,c,e}
+	{GDK_DPI_SCALE=2 firefox,pimp,telegram-desktop,qbittorrent,keepassxc,GDK_DPI_SCALE=2 chromium,GDK_DPI_SCALE=2 thunderbird}
+super + c
+	cd /home/user/scripts && ./layoutswitcher.sh
+@Print
+	flameshot gui
+XF86AudioRaiseVolume
+	/home/user/scripts/volume-changer.sh -p
+XF86AudioLowerVolume
+	/home/user/scripts/volume-changer.sh -m

@@ -1,0 +1,3 @@
+net-vpn/i2p ~amd64
+net-vpn/i2pd ~amd64
+app-admin/i2pd-tools ~amd64

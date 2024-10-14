@@ -1,0 +1,12 @@
+# required by www-client/chromium-128.0.6613.84::gentoo
+# required by chromium (argument)
+>=dev-libs/libxml2-2.12.7 icu
+# required by www-client/chromium-128.0.6613.84::gentoo[system-png]
+# required by chromium (argument)
+>=media-libs/libpng-1.6.43 -apng
+# required by www-client/chromium-128.0.6613.84::gentoo[vaapi]
+# required by chromium (argument)
+>=media-libs/libva-2.21.0 wayland
+# required by www-client/chromium-128.0.6613.84::gentoo
+# required by chromium (argument)
+>=net-libs/nodejs-22.4.1-r1 inspector

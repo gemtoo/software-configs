@@ -1,0 +1,49 @@
+[colors.bright]
+black = "0xdddddd"
+blue = "0x0000ff"
+cyan = "0x00ffff"
+green = "0x54ff54"
+magenta = "0xff00ff"
+red = "0xff0000"
+white = "0xffffff"
+yellow = "0xffff00"
+
+[colors.cursor]
+cursor = "0x4d4d4c"
+text = "0xffffff"
+
+[colors.normal]
+black = "0x000000"
+blue = "0x5454ff"
+cyan = "0x54ffff"
+green = "0x54ff54"
+magenta = "0xff54ff"
+red = "0xff5454"
+white = "0xdddddd"
+yellow = "0xffff54"
+
+[colors.primary]
+background = "0x000000"
+foreground = "0xffffff"
+
+[font]
+size = 8
+
+[font.glyph_offset]
+x = 0
+y = 0
+
+[font.offset]
+x = 0
+y = 0
+
+[scrolling]
+history = 10000
+multiplier = 3
+
+[window]
+dynamic_padding = false
+
+[window.padding]
+x = 2
+y = 3

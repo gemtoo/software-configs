@@ -1,0 +1,5 @@
+net-vpn/tor ~amd64
+sec-keys/openpgp-keys-tor ~amd64
+
+www-client/torbrowser-launcher ~amd64
+www-client/torbrowser ~amd64

@@ -1,0 +1,1 @@
+www-client/firefox -telemetry -clang -gmp-autoupdate

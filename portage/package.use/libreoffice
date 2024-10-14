@@ -1,0 +1,9 @@
+app-office/libreoffice -mariadb -branding postgres
+# required by app-office/libreoffice-7.6.4.1::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-libs/xmlsec-1.3.3-r1 nss
+# required by app-office/libreoffice-7.6.4.1::gentoo[postgres]
+# required by @selected
+# required by @world (argument)
+>=dev-db/postgresql-16.2 kerberos

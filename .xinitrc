@@ -11,6 +11,7 @@ picom --config ~/.config/picom.conf &
 xset s off
 xset -dpms
 xmodmap -e "keycode 118 ="
+setxkbmap -layout us,ru -option grp:alt_shift_toggle
 xhost +local:docker
 brightnessctl --device='intel_backlight' set 24242
 brightnessctl --device='tpacpi::kbd_backlight' set 2

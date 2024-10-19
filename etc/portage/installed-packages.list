@@ -10,7 +10,6 @@ app-arch/dpkg
 app-arch/p7zip
 app-arch/rpm2targz
 app-arch/upx
-app-backup/mkstage4
 app-benchmarks/stress
 app-cdr/cdrtools
 app-containers/docker
@@ -119,6 +118,7 @@ net-wireless/gnuradio
 net-wireless/hackrf-tools
 net-wireless/sdrpp
 sci-libs/libqalculate
+sci-mathematics/wxmaxima
 sys-apps/firejail
 sys-apps/flashrom
 sys-apps/hwdata
@@ -130,7 +130,6 @@ sys-apps/pciutils
 sys-apps/pkgcore
 sys-apps/progress
 sys-apps/systemd-utils
-sys-apps/systemd-utils::gangsta-repo
 sys-apps/usbutils
 sys-auth/rtkit
 sys-boot/grub::himalayas

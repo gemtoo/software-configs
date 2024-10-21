@@ -6,3 +6,5 @@ dev-libs/glib ~amd64
 dev-cpp/expected-lite ~amd64
 dev-util/gdbus-codegen ~amd64
 media-libs/libtgvoip ~amd64
+dev-cpp/ada ~amd64
+dev-cpp/abseil-cpp ~amd64

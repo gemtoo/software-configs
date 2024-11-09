@@ -16,6 +16,7 @@ app-containers/docker
 app-containers/docker-buildx
 app-containers/docker-compose
 app-containers/kompose
+app-editors/imhex
 app-editors/micro
 app-editors/vscodium
 app-emulation/qemu
@@ -73,13 +74,14 @@ media-libs/exiftool
 media-libs/libva-intel-media-driver
 media-libs/mesa
 media-sound/alsa-utils
-media-sound/moc
+media-sound/musikcube
 media-sound/pavucontrol
 media-sound/pulseaudio
 media-video/ffmpeg
 media-video/mpv
 media-video/obs-studio
 media-video/pipewire
+media-video/wireplumber
 net-analyzer/arp-scan
 net-analyzer/fail2ban
 net-analyzer/iftop
@@ -92,7 +94,6 @@ net-analyzer/wireshark
 net-dns/bind-tools
 net-firewall/nftables
 net-firewall/ufw
-net-im/element-desktop-bin
 net-im/telegram-desktop
 net-mail/swaks
 net-misc/chrony
@@ -106,6 +107,8 @@ net-misc/subnetcalc
 net-misc/telnet-bsd
 net-misc/websocat
 net-misc/yt-dlp
+net-p2p/feather
+net-p2p/monero
 net-p2p/qbittorrent
 net-p2p/yggdrasil-go
 net-proxy/sshuttle
@@ -119,6 +122,7 @@ net-wireless/hackrf-tools
 net-wireless/sdrpp
 sci-libs/libqalculate
 sci-mathematics/wxmaxima
+sys-apps/cpuid
 sys-apps/firejail
 sys-apps/flashrom
 sys-apps/hwdata
@@ -143,6 +147,7 @@ sys-cluster/kubelet
 sys-cluster/kubeletctl
 sys-cluster/minikube
 sys-devel/lld
+sys-devel/mold
 sys-firmware/sof-firmware
 sys-fs/cryptsetup
 sys-fs/ddrescue

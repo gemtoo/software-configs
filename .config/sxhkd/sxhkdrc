@@ -3,7 +3,7 @@ export GDK_SCALE=2
 export GDK_DPI_SCALE=2
 export ELECTRON_SCALE=2
 super + o ; {w,p,t,q,k,c,e}
-	{GDK_DPI_SCALE=2 firefox,pimp,telegram-desktop,qbittorrent,keepassxc,GDK_DPI_SCALE=2 chromium,GDK_DPI_SCALE=2 thunderbird}
+	{GDK_DPI_SCALE=2 firefox,pimp,QT_SCALE_FACTOR=2 telegram-desktop,qbittorrent,keepassxc,GDK_DPI_SCALE=2 chromium,GDK_DPI_SCALE=2 thunderbird}
 @Print
 	flameshot gui
 XF86AudioRaiseVolume

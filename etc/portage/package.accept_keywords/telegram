@@ -8,3 +8,4 @@ dev-util/gdbus-codegen ~amd64
 media-libs/libtgvoip ~amd64
 dev-cpp/ada ~amd64
 dev-cpp/abseil-cpp ~amd64
+dev-cpp/ms-gsl ~amd64

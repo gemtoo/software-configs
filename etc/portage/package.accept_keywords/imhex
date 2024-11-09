@@ -1,0 +1,3 @@
+app-editors/imhex ~amd64
+dev-libs/nativefiledialog-extended ~amd64
+media-libs/glfw ~amd64

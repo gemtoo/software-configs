@@ -1,4 +1,4 @@
-app-emulation/qemu -vnc -gnutls gtk
+app-emulation/qemu -vnc -gnutls gtk sdl
 app-emulation/qemu QEMU_SOFTMMU_TARGETS: x86_64 aarch64
 app-emulation/qemu QEMU_USER_TARGETS: x86_64 aarch64
 app-emulation/qemu PYTHON_TARGETS: -python3_10

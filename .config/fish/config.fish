@@ -2,11 +2,6 @@ cd
 export GPG_TTY=$(tty)
 export TERM="xterm-256color"
 export PATH="$HOME/.cargo/bin/:$PATH"
-export LC_ALL="en_US.utf8"
-export QT_STYLE_OVERRIDE=adwaita-dark
-export QT_SCALE_FACTOR=2
-export GDK_DPI_SCALE=2
-export ELECTRON_SCALE=2
 ### ALIASES ###
 
 #Basic

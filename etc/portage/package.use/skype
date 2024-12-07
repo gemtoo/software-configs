@@ -1,0 +1,2 @@
+# needed for gnome-keyring that is needed for skype
+>=app-crypt/gcr-3.41.1-r2:0 gtk

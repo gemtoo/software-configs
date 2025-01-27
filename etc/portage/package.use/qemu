@@ -17,3 +17,4 @@ app-emulation/virt-manager gui
 # required by @selected
 # required by @world (argument)
 >=net-misc/spice-gtk-0.42-r3 usbredir
+media-libs/libsdl2 joystick haptic

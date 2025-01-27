@@ -1,1 +1,2 @@
-dev-python/shtab
+dev-python/shtab ~amd64
+app-text/tldr ~amd64

@@ -1,5 +1,6 @@
 app-containers/containerd ~amd64
-=app-containers/runc-1.1.14 ~amd64
+app-containers/runc ~amd64
 app-containers/docker ~amd64
+app-containers/docker-cli ~amd64
 app-containers/docker-compose ~amd64
 app-containers/docker-buildx ~amd64

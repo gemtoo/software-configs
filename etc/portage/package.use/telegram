@@ -1,4 +1,3 @@
-net-im/telegram-desktop webkit
 dev-qt/qtgui jpeg
 media-video/ffmpeg opus
 sys-libs/zlib minizip

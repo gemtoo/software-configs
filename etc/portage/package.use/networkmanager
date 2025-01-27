@@ -1,1 +1,1 @@
-net-misc/networkmanager -modemmanager ppp -lto iwd wifi wext
+net-misc/networkmanager -modemmanager -ppp -lto iwd wifi -wext dhcpcd

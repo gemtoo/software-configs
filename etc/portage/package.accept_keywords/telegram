@@ -2,7 +2,6 @@ net-im/telegram-desktop ~amd64
 dev-cpp/glibmm ~amd64
 media-libs/tg_owt ~amd64
 dev-cpp/cppgir ~amd64
-dev-libs/glib ~amd64
 dev-cpp/expected-lite ~amd64
 dev-util/gdbus-codegen ~amd64
 media-libs/libtgvoip ~amd64

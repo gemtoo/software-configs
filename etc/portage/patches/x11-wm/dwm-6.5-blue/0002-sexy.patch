@@ -1,8 +1,10 @@
 diff --git a/config.def.h b/config.def.h
-index 357dc6f..6b2d4cf 100644
+index 357dc6f..abd2012 100644
 --- a/config.def.h
 +++ b/config.def.h
-@@ -3,20 +3,20 @@
+@@ -1,22 +1,22 @@
+ /* See LICENSE file for copyright and license details. */
+ 
  /* appearance */
 -static const unsigned int borderpx  = 1;        /* border pixel of windows */
 +static const unsigned int borderpx  = 3;        /* border pixel of windows */
@@ -68,7 +70,7 @@ index 357dc6f..6b2d4cf 100644
  };
  
  /* key definitions */
-@@ -78,52 +63,18 @@ static const Layout layouts[] = {
+@@ -78,52 +63,17 @@ static const Layout layouts[] = {
  /* commands */
  static char dmenumon[2] = "0"; /* component of dmenucmd, manipulated in spawn() */
  static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont, "-nb", col_gray1, "-nf", col_gray3, "-sb", col_cyan, "-sf", col_gray4, NULL };
@@ -107,7 +109,7 @@ index 357dc6f..6b2d4cf 100644
 +	{ MODKEY,                       XK_b,      togglebar,      {0} },
  	{ MODKEY|Mod4Mask,              XK_0,      togglegaps,     {0} },
  	{ MODKEY|Mod4Mask|ShiftMask,    XK_0,      defaultgaps,    {0} },
- 	{ MODKEY,                       XK_Tab,    view,           {0} },
+-	{ MODKEY,                       XK_Tab,    view,           {0} },
  	{ MODKEY|ShiftMask,             XK_c,      killclient,     {0} },
 -	{ MODKEY,                       XK_t,      setlayout,      {.v = &layouts[0]} },
 -	{ MODKEY,                       XK_f,      setlayout,      {.v = &layouts[1]} },

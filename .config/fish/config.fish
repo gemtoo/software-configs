@@ -18,6 +18,7 @@ alias cff='pushd ~/.config/fish/ && t config.fish && popd'
 alias reboot='doas -- reboot'
 alias down='doas -- shutdown -h now'
 alias rsync='rsync -avhPHAXxog'
+alias ip='ip -c'
 source "$HOME/.config/fish/aliases.fish"
 ### ALIASES END ###
 

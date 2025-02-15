@@ -34,6 +34,12 @@ function fish_prompt
 	    printf "["
 	set_color white
 	    printf " "
+	set_color cyan
+	    printf "$USER"
+	    printf "@"
+	    printf (hostname)
+    set_color white
+        printf " "
 	set_color magenta
 	    printf "{"$git_branch"}" 2>/dev/null && set_color white && printf " "
 	set_color green

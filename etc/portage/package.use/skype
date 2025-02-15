@@ -1,2 +1,11 @@
+# required by net-im/skypeforlinux-8.134.0.202_p378::gentoo
+# required by @selected
+# required by @world (argument)
+>=sys-fs/squashfs-tools-4.6.1 lzo
+# required by dev-libs/libayatana-appindicator-0.5.93::gentoo
+# required by net-im/skypeforlinux-8.134.0.202_p378::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-libs/libdbusmenu-16.04.0-r2 gtk3
 # needed for gnome-keyring that is needed for skype
 >=app-crypt/gcr-3.41.1-r2:0 gtk

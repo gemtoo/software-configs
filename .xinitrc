@@ -15,5 +15,5 @@ setxkbmap -layout us,ru -option grp:ctrl_space_toggle
 xhost +local:docker
 brightnessctl --device='intel_backlight' set 24242
 brightnessctl --device='tpacpi::kbd_backlight' set 2
-doas -- /etc/init.d/wg-quick.komaru start
+#doas -- /etc/init.d/wg-quick.komaru start
 exec dwm

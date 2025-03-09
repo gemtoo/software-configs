@@ -10,3 +10,4 @@
 # required by www-client/chromium-128.0.6613.84::gentoo
 # required by chromium (argument)
 >=net-libs/nodejs-22.4.1-r1 inspector
+www-client/chromium -system-icu

@@ -1,4 +1,4 @@
-app-office/libreoffice -mariadb -branding -postgres
+app-office/libreoffice -mariadb -branding -postgres -bluetooth
 # required by app-office/libreoffice-7.6.4.1::gentoo
 # required by @selected
 # required by @world (argument)

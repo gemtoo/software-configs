@@ -1,1 +1,4 @@
-net-misc/networkmanager -modemmanager -ppp -lto iwd wifi -wext dhcpcd
+#net-misc/networkmanager -modemmanager -ppp -lto iwd wifi wext gnutls
+net-misc/networkmanager -modemmanager -iwd -bluetooth
+net-wireless/iwd standalone
+gnome-extra/nm-applet -modemmanager appindicator

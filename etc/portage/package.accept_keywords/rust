@@ -2,3 +2,4 @@ dev-util/cargo-ebuild ~amd64
 dev-util/cargo-audit ~amd64
 dev-util/sccache ~amd64
 dev-util/cargo-make ~amd64
+dev-lang/rust ~amd64

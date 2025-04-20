@@ -4,3 +4,5 @@ sys-libs/zlib minizip
 media-video/ffmpeg vpx
 dev-qt/qtcore icu
 >=dev-qt/qtwayland-5.15.13:5 compositor
+>=dev-qt/qtbase-6.8.2-r2 icu
+>=dev-qt/qt5compat-6.8.2-r1 icu
